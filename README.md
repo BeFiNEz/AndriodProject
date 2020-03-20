@@ -25,4 +25,8 @@
 [![Screenshot-152.png](https://i.postimg.cc/59G2yWTG/Screenshot-152.png)](https://postimg.cc/nM4JSgHY)
 
 ถ้ากด "ใช่" ระบบจะแสดงให้เห็นถึงปัญหาที่เคยถูก report และจะได้เห็นว่าระบบมีการพัฒนาขึ้นจากช่วงแรกของการพัฒนา จนถึงช่วงสุดท้ายของการพัฒนา
-[url=https://postimg.cc/XXjbhxXR][img]https://i.postimg.cc/XXjbhxXR/Screenshot-153.png[/img][/url]
+[![Screenshot-153.png](https://i.postimg.cc/h4xtX5nt/Screenshot-153.png)](https://postimg.cc/XXjbhxXR)
+
+โดยแอปพลิเคชันสามารถบอกถึง content จากเว็บไซต์เรา เพื่อมาแสดงบนแอปพลิเคชันของที่พัฒนา
+[![Screenshot-154.png](https://i.postimg.cc/Vs7DbDW2/Screenshot-154.png)](https://postimg.cc/pyFDwQ7B)
+
