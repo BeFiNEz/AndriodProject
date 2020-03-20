@@ -49,8 +49,8 @@ class showreal : Fragment() {
 
                 }
 
-                val adapter = Adapter(activity!!, list)
-                listView.adapter = adapter
+//                val adapter = Adapter(activity!!, list)
+//                listView.adapter = adapter
 
             }
 
