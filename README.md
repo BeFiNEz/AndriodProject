@@ -7,7 +7,7 @@
 - Realtime database (show, insert, update, delete)
 - Dialog alert
 - Graph by MPAndroidChart
-- http  
+- http get
 # ผลลัพธ์หน้าจอ
 ในส่วนแรกจะเป็น Login ผ่าน Facebook ที่ได้เรียนมาจากในห้อง
 [![Screenshot-144.png](https://i.postimg.cc/YCrfSFJb/Screenshot-144.png)](https://postimg.cc/MvLjPnZQ)
@@ -30,3 +30,6 @@
 โดยแอปพลิเคชันสามารถบอกถึง content จากเว็บไซต์เรา เพื่อมาแสดงบนแอปพลิเคชันของที่พัฒนา
 [![Screenshot-154.png](https://i.postimg.cc/Vs7DbDW2/Screenshot-154.png)](https://postimg.cc/pyFDwQ7B)
 
+และส่วนสุดท้ายในหน้าแรกยังมีการบ่งบอกว่า ใครเป็นผู้พัฒนา แอปพลิเคชันขึ้นมา เมื่อกดอยากทราบว่าใครเป็นผู้พัฒนา ระบบจะส่งข้อมูลไปยัง Realtime และจะดึงกลับมาแสดงผล
+[![Screenshot-158.png](https://i.postimg.cc/xTZkHb70/Screenshot-158.png)](https://postimg.cc/9rGFHzCS)
+# *หมายเหตุในส่วนการแสดงผลนั้นผู้พัฒนายังไม่สามารถทำได้ ขออภัย ณ ที่นี้ด้วย
