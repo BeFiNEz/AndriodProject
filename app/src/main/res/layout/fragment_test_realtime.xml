@@ -17,7 +17,7 @@
             android:id="@+id/btn1"
             android:layout_width="441dp"
             android:layout_height="match_parent"
-            android:text="add1" />
+            android:text="อยากทราบว่าใครเป็นผู้พัฒนา" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layout"
