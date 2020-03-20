@@ -27,14 +27,7 @@
             android:weightSum="3"
             tools:context=".MainActivity">
 
-            <Button
-                android:id="@+id/buttonShowdata"
-                android:layout_width="236dp"
-                android:layout_height="49dp"
-                android:text="Showdata"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="7dp" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

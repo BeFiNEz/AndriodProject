@@ -47,22 +47,22 @@ class test_realtime : Fragment() {
             //setValue() เป็นการ write หรือ update ข้อมูล ไปยัง path ที่เราอ้างถึงได้ เช่น users/<user-id>/<username>
             mUsersRef.child("id-60160185").setValue("Artit")
         }
-        buttonShowdata = view.findViewById(R.id.buttonShowdata)
-        buttonShowdata.setOnClickListener{
-            val fragment_showreal = showreal()
-            val fm = fragmentManager
-            val transaction : FragmentTransaction = fm!!.beginTransaction()
-            transaction.replace(R.id.layout,fragment_showreal,"fragment_showreal")
-            transaction.addToBackStack("fragment_showreal")
-            transaction.commit()
+//        buttonShowdata = view.findViewById(R.id.buttonShowdata)
+//        buttonShowdata.setOnClickListener{
+//            val fragment_showreal = showreal()
+//            val fm = fragmentManager
+//            val transaction : FragmentTransaction = fm!!.beginTransaction()
+//            transaction.replace(R.id.layout,fragment_showreal,"fragment_showreal")
+//            transaction.addToBackStack("fragment_showreal")
+//            transaction.commit()
 
+        return view
 
 
         }
 
-        return view
 
-    }
+
 
 
     data class FriendlyMessage(
