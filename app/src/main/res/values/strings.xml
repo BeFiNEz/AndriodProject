@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Facebookxcd</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1639899949484282</string>
+    <string name="fb_login_protocol_scheme">fb1639899949484282</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

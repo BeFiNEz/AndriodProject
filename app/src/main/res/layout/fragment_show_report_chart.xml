@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:background="#FFF5EE"
+
+    tools:context=".Show_report_chart">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_id"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line_id"
+            android:layout_width="match_parent"
+            android:layout_height="211dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="link http" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

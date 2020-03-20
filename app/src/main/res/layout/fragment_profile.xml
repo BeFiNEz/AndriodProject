@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".authen">
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Report" />
+
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_profile"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="logout" />
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".authen">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="vertical"
+            android:weightSum="3"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="12dp"
+                android:text="My Friend"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <fragment
+            android:id="@+id/show_data"
+            class="com.example.signingreport.fragment_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_fragment_recycler_view" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
